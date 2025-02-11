@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event -handling in the dom </title>
+
+    <style>
+
+        body{
+            background-color: black; 
+            color : white ;
+            box-sizing: border-box;
+            display : flex ;
+            flex-direction: column
+            ;
+            align-items: center;
+
+        }
+
+        body > *{
+            margin-bottom: 10px;
+        }
+        #teaList{
+         list-style: none;
+
+
+        }
+
+        #feedbackForm{
+            display : flex  ;
+            flex-direction: column;
+            gap : 10px ;
+         }
+
+         #feedbackForm > input{
+            padding : 10px ;
+            
+         }
+
+         .HighLight{
+            background-color: yellow;
+             color : black ;
+             font-size: 25px;   
+
+         }
+
+
+
+
+
+    </style>
+
+
+</head>
+
+<body >
+
+   
+
+    <section id="example6">
+
+        <h2>Event Handling in the DOM</h2>
+        <button id="clickMeButton">fuck me!</button>
+
+    </section>
+
+    <!-- evetn delegation  -->
+
+    <section id="teaList">
+
+        <li class="teaItem">Green tea</li>
+        <li class="teaItem">Black tea</li>
+        <li class="teaItem">Oolong tea</li>
+        <p>click on any tea to select</p>
+
+    </section>
+
+    <sction id="example8">
+        <h2>Form handling</h2>
+
+        <form id="feedbackForm">
+
+            <label for="input">
+                Your feedback
+            </label>
+
+            <input type="text"  id="input"
+            placeholder="write feedback" 
+            >
+
+            <button type="submit" >  
+                Submit Feedback 
+            </button>
+        </form>
+
+
+    </sction>
+
+    <section class="example10">
+
+        <h2>CSS classes Mainpulation</h2>
+        <p id="desText">
+            This text will change color!
+        </p>
+
+        <button id="toggleHigh" >Toggle Highlight</button>
+
+
+
+    </section>
+
+
+    <script src="./03script.js"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+
+
+        }
+
+        .container {
+
+            padding: 20px;
+            margin-top: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border: 1px solid grey;
+            border-radius: 5px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+
+        }
+
+        .container>h1 {
+            font-size: 24px;
+            margin-bottom: 8px;
+            color: rgb(77, 74, 74);
+        }
+
+        .input-container input {
+
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid rgb(153, 149, 149);
+
+        }
+
+        .input-container input:focus {
+            border: none;
+            outline: 2px solid rgb(6, 102, 247);
+        }
+
+
+
+
+
+        .input-container button {
+            padding: 6px 8px;
+            background-color: rgb(6, 102, 247);
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+        }
+
+    #todo-List {
+        padding: 20px;
+        list-style-type: decimal; /* Ensure decimal style for list items */
+        list-style-position: outside; /* Position the marker outside the content area */
+        width: 100%;
+    }
+
+    li {
+        display: flex; /* Enable flex layout for the list items */
+        justify-content: space-between; /* Space elements inside the list item */
+        align-items: center; /* Align items vertically */
+        margin-top: 10px;
+        border-bottom: 1px solid rgb(201, 197, 197);
+        padding: 5px;
+        width: 100%;
+    }
+
+    li > button {
+        background-color: rgb(236, 60, 29);
+        border: none;
+        padding: 5px;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+
+
+
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>To-Do List</h1>
+
+        <div class="input-container">
+            <input type="text" id="todo-input" placeholder="Add a new task" />
+            <button id="add-task-btn">Add</button>
+
+        </div>
+
+        <ol id="todo-List">
+
+
+        </ol>
+
+    </div>
+
+
+   <script src="./06script.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box-sizing  </title>
+
+    <style>
+
+        .box1{
+
+            border : 1px solid black ; 
+            height: 150px ;
+            padding : 50px ;          
+        }
+
+        .box2{
+            border : 1px solid black ;
+            height: 150px ; 
+            padding : 50px ;
+            box-sizing: border-box;
+        }
+
+        /* the first box if of height 150px  excluding padding  */
+        /* and the second box is of 150px including padding  , so box-sizing :border-box helps us inlcude padding and border in the height of the element that we sets 
+        */
+
+    </style>
+
+
+</head>
+<body>
+   
+    <div class="box1">
+
+        Lorem ipsum dolor sit amet.
+
+    </div>
+    <div class="box2">
+
+        Lorem ipsum dolor sit amet.
+
+    </div>
+
+     <div>
+
+        html document is converted into tree like structure called DOM 
+
+        ex :
+        <br>
+        <br><br><br><br><br>
+
+       <pre>
+
+        this is the three structure
+        <ol>
+            <li>html tag  is parent of head and body </li>
+            <li>body and head are siblings </li>
+            <li>the childs of body and head are desendents of html tag </li>
+
+
+        </ol>
+
+
+
+                html tag 
+                /        \   
+        head tag          body tag
+                          /      \ 
+                    div tag    div tag 
+             
+                
+
+
+       </pre>
+
+
+
+     </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

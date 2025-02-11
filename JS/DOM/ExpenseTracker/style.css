@@ -1,0 +1,64 @@
+
+
+body{
+
+    min-height: 100vh; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+input{
+    padding : 10px  10px ;
+    border-radius: 5px;
+    border:none ;
+
+}
+
+input:focus{
+   outline: 2px solid rgb(8, 8, 8) ;    
+}
+
+button{
+    font-weight: bolder;
+    padding : 10px ;
+    background-color: rgb(0, 140, 255);
+    border : none ;
+    border-radius: 5px;
+    color : rgb(236, 231, 231) ;
+
+}
+
+.container{
+    background-color: rgba(20, 16, 16, 0.897) ;
+    padding : 20px ;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgb(39, 39, 39) ;
+    color : aqua ;
+}
+
+#toggle{
+    margin: 10px;
+    box-shadow: 10px 10px 10px rgb(39, 39, 39) ;
+}
+
+
+#expense-list div{
+
+    margin : 3px ;
+    padding : 5px ;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    
+}
+
+#expense-list div p{
+    flex-grow: 1;
+}
+
+.total{
+    text-align: end; 
+}

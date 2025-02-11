@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{ 
+
+    
+    max-width: 500px;
+    height: 500px;
+    background-color: aqua;
+    display : flex ;
+    margin : auto ;
+    justify-content: center;
+    align-items : baseline ;
+    
+}
+
+.flex-item{
+    
+    background-color: black ;
+    margin : 5px ;
+    color : aqua ;
+    text-align: center;
+    font-size : 30px ;
+    flex-basis: 100px;
+
+}
+
+.flex1{
+    flex-shrink: 2;
+}

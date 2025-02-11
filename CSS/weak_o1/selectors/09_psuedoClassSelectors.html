@@ -1,0 +1,190 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psuedo classes</title>
+
+    <style>
+
+        *{
+            box-sizing: border-box;
+            padding : 5px ;
+        }
+
+            a{
+                text-decoration: none;
+                transition: 0.5s;
+            }
+            /* unvisted link  */
+            a:link{
+                color : red ;
+            }
+            /* visted link  */
+            a:visited{
+                color : green ;
+            }
+
+            a:hover{
+                text-decoration: underline;
+            }
+
+            a:active{
+                color : blue ;
+                font-size: 50px ;
+                transition: 0.5s;
+            }
+
+            a.google:hover{
+
+                color : purple ;
+
+            }
+ 
+            .box{
+
+                height: 200px;
+                background-color: purple;
+                display: none;
+
+            }
+
+         .container:hover .box{
+                display: block;
+                border : 2px solid black ;
+
+            } 
+
+            q:lang(quates){
+                quotes: """  """;
+            }
+   
+            input:focus{
+                padding : 10px ;
+                width: 300px;
+                border-radius: 8px;
+            }
+
+    </style> 
+
+
+</head>
+<body>
+
+
+
+    <article>
+
+        <a href="https://www.tesla.com/">Tesla </a>
+        <a href="#"  class="google">google</a>
+
+        <div class="container">
+           
+            it should have content
+        <div class="box"></div>
+
+        </div>
+
+
+        <q lang="quates">  I am Neetesh Parihar</q>
+
+    </article>
+
+    <form action="">
+
+        <input type="text" placeholder="Enter email"  >
+        <input type="text"  placeholder="password">
+        <button>submit</button>
+
+    </form>
+
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

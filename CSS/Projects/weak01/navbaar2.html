@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter-style-Navbaar</title>
+
+<style>
+    
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .navbaar{
+        border-right: 1px solid black ;
+        width: 30%;
+        position: fixed;
+        top : 0 ;
+        left : 0 ;
+        bottom: 0;
+        background: rgb(24, 22, 22);
+
+
+    }
+   
+
+    .navbaar ul{
+       
+        padding :10px ;
+
+    }
+
+    .navbaar  li{
+        margin-bottom: 10px ;
+        width: 100%;
+        
+        padding-left: 5px ;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .navbaar >ul >li> a{
+        display: block;
+        text-decoration: none;
+        color : white ;
+        padding : 5px 0px ;
+        font-size: 20px ;
+        font-weight: 600 ;
+
+    }
+
+    .navbaar ul  a:hover{
+
+       background: rgb(73, 72, 69);
+       padding : 5px ;
+       border-radius: 5px;
+       color : black ;
+        
+    }
+
+    .navbaar button{
+        width: 100%;
+        padding : 10px ;
+        font-size: 20px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        font-weight: 600 ;
+        cursor: pointer;
+
+    }
+
+    .navbaar button:hover{
+
+        background-color: rgb(73, 72, 69);
+      
+    }
+
+    body{
+        background-color: black;
+    }
+
+    img{
+        width: 80%;
+        border-radius: 5px ;
+    }
+
+    .links  {
+        color : white ;
+    }
+
+    .links{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap : 10px ;
+    }
+
+    .links a {
+        color : rgb(255, 255, 255) ;
+        font-size: 13px ;
+        text-decoration: none;
+        font-weight: 50;
+
+    }
+
+    .links a:hover {
+        text-decoration: underline;
+
+    }
+
+
+    .About{
+        position: relative;
+        display : flex ;
+    }
+
+   
+
+
+    .Nested-items {
+
+        list-style-type: none;
+        position: absolute;
+        left : 28vw ;
+        background-color: white;      
+        border-radius: 10px;
+        display : none ;
+        
+    }
+
+    .Nested-items a{
+        font-size: 13px;
+        color : black ;        
+    }
+
+    .Nested-items  a:hover{
+        
+        color : white ;        
+    }
+
+
+    .About:hover .Nested-items{
+        display:block;
+     
+    }
+
+
+</style>
+
+</head>
+<body>
+
+   
+
+        <nav class="navbaar" >
+            <ul>
+                <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMRsepkocyppLcMhZBNgsJkQe_oDebVQ6nZA&s" alt=""></li>
+                <li><a href="#">Home</a></li>
+                <li class="About"><a href="#">About</a>
+                    <ul class="Nested-items">
+                        <li> <a href="#">Carreers at IMG</a></li>
+                        <li><a href="#">AIM</a></li>
+                        <li><a href="">Investments</a></li>
+                        <li><a href="">contributiion to public</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">contact</a></li>
+
+                <li><button>Login</button></li>
+            </ul>
+
+
+            <div class="links">
+
+                <a href="#">follow on twitter</a>
+                <a href="#">follow us</a>
+                <a href="#">copy rights</a>
+                <a href="#">collaborate</a>
+                <a href="#">github</a>
+
+            </div>
+
+
+
+        </nav>
+      
+   
+
+
+    
+</body>
+</html>

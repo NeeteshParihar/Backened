@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> desendent  selectors </title>
+
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        article {
+
+            background-color: orchid;
+            min-height: 300px;
+            padding: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+
+
+        h1 {
+
+            color: rgb(68, 1, 65);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+
+        h4 {
+            font-style: italic;
+            font-size: 12px;
+            padding: 10px 20px;
+
+        }
+
+        h4:hover {
+            color: aqua;
+        }
+
+        p {
+            line-height: 24px;
+        }
+    </style>
+
+    <style>
+        /* style the element which contains the attribute type */
+
+        [type] {
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        button[type="submit"] {
+
+            font-weight: 900;
+            background-color: blue;
+            color: white;
+            cursor: pointer;
+
+        }
+    </style>
+
+
+    <style>
+       
+    /* read from right to left  */
+    /* 
+    select paragraphs which are desentants of the div elements   
+     */
+        article p{
+
+            color : rgb(0, 28, 151) ;
+
+        }
+        
+
+    </style>
+
+
+
+
+
+</head>
+
+<body>
+
+    <article>
+
+        <h1>AI and ML </h1>
+        <h4>by Neetesh Parihar</h4>
+
+        <div class="contant">
+
+            <p title="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui nemo dolore dicta cum tempora
+                obcaecati esse aut quas! Quae, molestiae, accusantium quasi recusandae fuga corrupti voluptates
+                consectetur voluptatum explicabo cumque error officia assumenda minus sunt nulla vel officiis veniam ex.
+                Delectus consequatur accusantium deserunt. Ducimus doloremque, iure ut aperiam error nobis repellat
+                molestias qui sapiente adipisci, delectus ea, rem possimus! Voluptas officiis eos eaque fuga ab ea
+                itaque fugiat, molestias, nulla magnam voluptatibus corrupti omnis praesentium quibusdam iure ducimus!
+                Quod amet cumque voluptatibus facilis inventore quasi, sunt doloribus nesciunt, in, reprehenderit qui
+                deserunt. Enim, velit aperiam dicta praesentium deleniti adipisci.
+
+            </p>
+
+
+            <p class="suggestions">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id cupiditate laudantium,
+                qui consectetur ducimus modi accusamus ratione veniam perferendis dolore.</p>
+
+
+        </div>
+
+
+
+        <input type="text" placeholder="Enter your suggestions ">
+
+        <button type="submit">submit</button>
+
+    </article>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psuedo element selectors </title>
+
+    <style>
+        p{
+            width: 100px;
+            margin : 50px ;
+            line-height: 20px ;
+        }
+
+
+        /* // only for block elements  */
+        p::first-line{
+            font-size: 25px ;
+            color : purple ;
+
+        }
+        p::first-letter{
+            font-size: 50px;
+        }
+
+        /* not applicable on the inline elemtns  */
+
+        a{
+            /* display: block; */
+
+
+        }
+        a::first-letter{
+            font-size: 25px;            
+        }
+
+        div::before{
+            content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_clOnjT3OVlUAlQ2Dvdf7Xao3m2ETxXbcLA&s) ;
+        }
+
+        div::after{
+            content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_clOnjT3OVlUAlQ2Dvdf7Xao3m2ETxXbcLA&s);
+        }
+
+        ::marker{
+            color : red ;
+            font-size: 30px;
+        }
+
+        ::selection{
+            background-color: aqua ;
+            color : black  ;            
+        }
+
+    </style>
+
+</head>
+<body>
+
+
+
+    <article>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas quos maxime, totam deserunt consequatur voluptate tempora est. Exercitationem, asperiores aliquid.</p>
+        <a href="#">Google</a>
+
+
+        <div>
+            This is image
+        </div>
+
+
+         <ul>
+            <li>Milk</li>
+            <li>tea</li>
+            <li>water</li>
+            <li>gas</li>
+         </ul>
+
+
+
+
+    </article>
+    
+</body>
+</html>

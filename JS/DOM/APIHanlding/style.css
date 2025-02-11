@@ -1,0 +1,57 @@
+
+
+.hidden{
+    display: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: black;
+    color : white ;
+
+}
+
+.wheatherApp{
+    border: 1px solid rgb(167, 161, 161) ;
+    padding : 10px ;
+    border-radius: 5px;
+    background-color: rgb(17, 17, 17);
+}
+
+.input-container > input , button{
+
+    padding : 5px 10px ;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+input:focus{
+    border : none ;
+    outline : 2px solid purple ;
+}
+
+.input-container > button{
+
+   background-color: purple ;
+   color : white ;
+   font-weight: bolder;
+   border : none ;
+}
+
+#weather-info{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#error-message{
+    color : red ;
+}
+
+
+

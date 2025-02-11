@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.card{
+
+    width: 60vw;
+    height: 70vh;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+
+    
+}
+
+.design{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(51, 228, 51) ;
+
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color : white ;
+    font-weight: 900;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+
+    
+
+}
+.form{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(185, 224, 185);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+h1{
+    color : white ;
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+    padding :12px 8px ;
+    text-align: center ;
+
+}
+
+form{
+
+    display:flex ;
+    flex-direction: column;
+    gap : 15px ;
+    margin-top: 20px ;
+    align-items: center;
+
+}
+
+form > *{
+    width: 60% ;
+
+}
+
+input {
+    padding: 14px ;
+    border-radius: 8px;
+    border: none;
+}
+
+
+button{
+    padding : 8px 18px;
+    font-size: 20px;
+    border : none ;
+    border-radius: 8px;
+    
+}
+
+button:hover{
+    background-color: rgb(5, 255, 5) ;
+    color : white ;
+}
+
+p{
+    word-wrap: break-word;
+}
+
+
+@media screen  and ( max-width : 500px) {
+
+    .card{
+        width: 100vw;
+        flex-direction: column-reverse ;
+        height: 100vh;
+        align-items: center;
+    }
+
+    .card > *{
+        width: 80%;
+        padding-bottom: 50px;
+    }
+    
+}
+

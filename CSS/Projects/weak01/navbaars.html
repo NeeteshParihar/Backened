@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NaavBaar</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            padding: 50px;
+        }
+
+        .nav1 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .nav1 ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: flex-end;
+            align-items: baseline;
+            border: 1px solid black;
+            padding: 20px;
+            border-radius: 10px;
+            background: rgb(19, 19, 16);
+        }
+
+        body{
+            background-color: rgb(14, 4, 22);
+        }
+
+
+
+        .nav1 li:first-child {
+            flex-grow: 1;
+        }
+
+        .nav1 li {
+            margin: 0px 8px;
+            /* good practice */
+            display: inline;
+        }
+
+        .nav1 a {
+            text-decoration: none;
+            position: relative;
+            color : white ;
+
+        }
+
+        .nav1 ul button {
+
+
+            color : white ;
+            background-color: transparent;
+            border: 1px solid white;
+            padding: 4px 5px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .nav1 ul button:hover {
+            color : white ;
+        }
+
+        .nav1 a::after{
+
+            content : "" ;
+            height: 2px ;
+            width: 100% ;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            
+            background-color: white;
+            transform: scaleX(0);
+            transition: transform 0.3s  ease-in-out;
+
+        }
+
+        .nav1 a:hover::after{
+            transform: scale(1);
+
+
+        }
+
+        .nav1 input {
+            padding : 5px ;
+            border-radius: 5px ;
+            border : none ;
+            outline : none ;
+        }
+
+        .nav1 input:focus{
+            outline : 2px solid white ;
+            background-color: rgb(14, 4, 22);
+            color : white ;
+          
+          
+        }
+        
+
+
+
+    </style>
+
+
+
+</head>
+
+
+<body>
+
+    <div class="container">
+        <div class="nav1">
+
+            <ul>
+                <li><a href="">Home</a></li>
+                <li class="search"><input type="text"placeHolder = "search trending topics"></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Product</a></li>
+                <li><button>Login</button></li>
+
+            </ul>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <div>
+            <h1>Products</h1>
+            <ol id="products-container">
+                <!-- products are inserted here -->
+            </ol>
+        </div>
+
+
+
+        <div>
+
+
+            <h1 class="cartIMG">Cart
+                <img src="./cartIMG.jpg" alt="">
+            </h1>
+            <ol id="cart-container">
+                <!-- cart items willbe added here -->
+            </ol>
+
+            <p id="empty-cart-response">
+                Your cart is empty
+            </p>
+
+            <div id="checkout-cart" class="hidden">
+                <p id="totalPrice"></p>
+                <button id="checkout">checkout</button>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo elements </title>
+
+    <style>
+        .psuedo-elements {
+
+            width: 60vw;
+            height: 80vh;
+            margin: 100px auto;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 25px;
+
+        }
+
+        .exciting-text::after {
+
+            content: "<--not boring";
+            padding: 5px;
+            color: red;
+            font-size: 18px;
+
+        }
+
+        .boring-text::before {
+
+            content: "not exciting -->";
+            padding: 5px;
+            color: red;
+            font-size: 18px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="psuedo-elements">
+
+        <p class="exciting-text">Lorem ipsum dolor sit amet. exciting</p>
+        <p class="boring-text"> Lorem ipsum dolor sit amet. boring</p>
+
+    </div>
+
+</body>
+
+</html>

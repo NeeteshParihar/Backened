@@ -1,0 +1,77 @@
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 400px;
+    border : 1px solid rgb(241, 238, 238) ;
+    padding : 20px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius : 10px ;
+    box-shadow: 5px 5px 5px rgb(53, 52, 52) ;
+    background-color: rgb(241, 237, 237) ;
+}
+
+#todoList{
+    width: 60%;
+    padding : 10px ;
+}
+#taskInput{
+    padding : 5px ;
+    border-radius: 5px ;
+    border : 1px solid rgb(204, 198, 198) ;
+  
+}
+
+#taskInput:focus{
+    outline : 2px solid rgb(36, 118, 241) ;  
+    border : none ;  
+    width:200px   ; 
+}
+
+#taskAddButton{
+    padding : 4px 8px  ;
+    background-color: rgb(36, 118, 241) ;
+    border : none ;
+    color : white ;
+    font-weight: bold; 
+    border-radius: 5px;
+}
+
+#taskAddButton:hover{
+    background-color: rgb(5, 66, 156);
+}
+
+
+
+li{
+    display : flex ;
+    font-weight: 500;
+    justify-content: space-between;
+    padding : 6px ;
+   
+
+    
+}
+
+#changeColor{
+    padding : 5px 8px ;
+    margin : 5px ;
+    box-shadow: 5px 5px 5px rgb(34, 33, 33);
+    border-radius: 5px;
+    border :none ;
+    font-weight: bold;
+}
+
+
+

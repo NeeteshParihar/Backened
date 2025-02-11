@@ -1,0 +1,125 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjacent selectors  </title>
+
+    <style>
+
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .box{
+            padding : 50px ;
+            background-color: purple;
+            color : rgb(59, 0, 61) ;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            height: 100vh;
+            line-height: 35px;
+        }
+
+        /* para ke adjacent ( right me jo hai use chose karlo ) */
+        p+h1 {
+            color : white ;
+        }
+
+        pre{
+            line-height:normal;
+        }
+
+        /* paragraph and uske next siblings sab ko select karlo */
+        p~*{
+            color : orange ;
+        }
+        
+     /* paragraph ke baad me jo unordered-listhai usechoose karlo  */
+        p~ul{
+            color : red ;
+        }
+        
+
+    </style>
+
+</head>
+<body>
+
+    <div class="box">
+
+        <p>Lorem ipsum dolor sit.
+        </p>
+
+        <h1>
+
+            Neetesh Parihar
+
+
+        </h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, facilis?</p> 
+
+        <pre>
+
+            div tag
+            /  |   \
+          p    h1   p  
+    
+        </pre>
+     
+
+
+        <p>Lorem ipsum dolor sit amet.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+
+        <ul>
+            <li>laptop</li>
+            <li>google</li>
+            <li>microsoft</li>
+        </ul>
+
+
+    </div>
+
+    
+
+
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
