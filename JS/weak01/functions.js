@@ -69,13 +69,10 @@ const palindrome = function(text){
         return ans ;
     }
 
-
-
     let isPalindrome = check( text ) ;
     console.log(start , end ) ;
 
     return isPalindrome ;
-
 
 }
 

@@ -13,6 +13,8 @@ function user(name){
 }
 
 
+
+
 // when  the function is called  with new keyword it creates a new empty object {}  and adds a property using this keyword 
 const user1 = new user("Neetesh") ;
 

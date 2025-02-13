@@ -31,8 +31,6 @@ let obj2 = obj1 ;       // we are not creating   any object we are just refrenci
 console.log(obj2 === obj1  ); // compared by refrence 
 console.log(obj1 == obj2  ) ;  
 
-
-
 // shallow copy 
 
 let obj3 = {...obj1} ;
@@ -111,6 +109,8 @@ console.log( arr1[2] == arr2[2]) ; // refrencing the same memory address
     let arr2 = JSON.parse(JSON.stringify(arr1)) ;
     console.log( arr1[2] == arr2[2]) ;
 }
+
+
 
 
 

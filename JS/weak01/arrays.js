@@ -41,20 +41,10 @@ console.log(removedValue) ;
 console.log(teaOrders) ;
 
 
-// soft copy of the array 
-
-let var1 = 5 ;
-let var2 = var1 ;
-console.log(var1 , var2 ) ;
-var1 = 9 ;
-console.log(var1 , var2 ) ;
-
-
-// in the case of array's 
-
 
 let teaHot = [ "black tea" , "milked tea" , "masala tea"] ;
 let softTea = teaHot ; // its taking refrence of the arr memory block , and start refrencing them independtly  
+
 
 console.log(teaHot) ;
 console.log(softTea) ;
@@ -77,15 +67,13 @@ console.log(emptyArr.pop());
 let topCities = ["Berlin" , "newYork" , "Tokyo"] ;
 let hardcopy = [...topCities] ;   // spread operator
 console.log(topCities) ;
-topCities.pop() ;
-console.log(hardcopy) ;
+topCities.pop() ; 
+console.log(hardcopy) ;  
 
-let hardCities = hardcopy.slice() ;
+let hardCities = hardcopy.slice() ; 
 console.log(hardCities) ;
 
-
-
-// merging two arrays 
+// merging two arrays   
 
 let europianCities = ["Paris" , "Rome"] ;
 let asianCities = ["Tokyo" , "Bangkok"] ;
@@ -120,12 +108,12 @@ arr.reverse() ;
 console.log(arr) ;
 
 
-let arr2 = arr ;
+let arr2 = arr ; 
 
 console.log(arr == arr2 ) ;
 console.log(arr === arr2 ) ;
 arr2[0] = "5" ;
-console.log(arr === arr2 ) ;
+console.log(arr === arr2 ) ; 
 
 
 // shallow copy in-depth 
@@ -167,7 +155,6 @@ let obj2 =  {
 let obj3 = obj1 ;  
 
 console.log("comparing the objects ") ;
-
 // == and === are same for object 
 console.log(obj1 === obj2 ) ; 
 console.log(obj1 == obj2 )  ;

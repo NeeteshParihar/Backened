@@ -6,6 +6,7 @@
 const result = (func , num )=>{
     const ans = func(num ) ;
     return ans ;
+
 }
 
 
@@ -54,8 +55,6 @@ const prepareFunc = ( count )=>{
 console.clear() ;
 
 const square = prepareFunc(2) ;
-
-
 console.log( square(10)) ;
 
 console.log(square(5)  , "the environment from which the square is returned have count and it is overwritten to 0 from prev call") ;

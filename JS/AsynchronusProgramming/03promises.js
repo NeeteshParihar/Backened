@@ -24,6 +24,7 @@ function fetchData(){
 
 }
 
+
 let response = fetchData() ;
 
 console.log(response) ;
