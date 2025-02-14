@@ -4,9 +4,9 @@ const fs = require("fs");
 
 const filePath = `./tasks.json`;
 
+// process.argv is used to take command line input when node.js before nodejs process
 const command = process.argv[2];
 const argument = process.argv[3];
-
 
 
 const loadTasks = () => {
@@ -23,9 +23,11 @@ const loadTasks = () => {
         return [];
     }
 
-
-
 }
+
+
+
+
 
 const saveTasks = (tasks) => {
 
@@ -35,6 +37,8 @@ const saveTasks = (tasks) => {
 
 
 }
+
+
 
 const addTask = (task) => {
 
