@@ -1,24 +1,12 @@
-2025-02-15T18:38:20.435Z - Application started
-2025-02-15T18:38:23.446Z - Current free memory: 30.59%
-2025-02-15T18:38:26.443Z - Current free memory: 30.78%
-2025-02-15T18:38:29.447Z - Current free memory: 30.82%
-2025-02-15T18:38:56.772Z - Application started
-2025-02-15T18:38:59.776Z - Current free memory: 30.45%
-2025-02-15T18:39:02.780Z - Current free memory: 30.67%
-2025-02-15T18:39:05.784Z - Current free memory: 30.76%
-2025-02-15T18:39:08.788Z - Current free memory: 30.83%
-2025-02-15T18:39:11.790Z - Current free memory: 30.77%
-2025-02-15T18:39:14.794Z - Current free memory: 31.00%
-2025-02-15T18:39:17.796Z - Current free memory: 31.09%
-2025-02-15T18:39:20.800Z - Current free memory: 30.79%
-2025-02-15T18:39:23.804Z - Current free memory: 30.80%
-2025-02-15T18:39:26.807Z - Current free memory: 30.80%
-2025-02-15T18:39:29.809Z - Current free memory: 30.71%
-2025-02-15T18:39:32.813Z - Current free memory: 30.79%
-2025-02-15T18:39:35.816Z - Current free memory: 31.11%
-2025-02-15T18:39:38.820Z - Current free memory: 31.29%
-2025-02-15T18:39:41.823Z - Current free memory: 30.66%
-2025-02-15T18:39:44.827Z - Current free memory: 30.48%
-2025-02-15T18:39:47.832Z - Current free memory: 30.48%
-2025-02-15T18:39:50.836Z - Current free memory: 30.64%
-2025-02-15T18:39:53.839Z - Current free memory: 30.90%
+
+2025-02-15T19:25:19.211Z - System memory info reading started
+2025-02-15T19:25:22.215Z -  freeMemory : 29.54%
+2025-02-15T19:25:25.218Z -  freeMemory : 29.82%
+2025-02-15T19:25:28.222Z -  freeMemory : 29.78%
+2025-02-15T19:25:31.225Z -  freeMemory : 29.67%
+2025-02-15T19:25:34.229Z -  freeMemory : 28.87%
+2025-02-15T19:25:37.232Z -  freeMemory : 29.20%
+2025-02-15T19:25:40.235Z -  freeMemory : 29.03%
+2025-02-15T19:25:43.239Z -  freeMemory : 28.85%
+2025-02-15T19:25:46.242Z -  freeMemory : 28.85%
+2025-02-15T19:25:49.226Z - System memory info reading ended
