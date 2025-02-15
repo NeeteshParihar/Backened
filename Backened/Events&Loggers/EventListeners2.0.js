@@ -10,6 +10,7 @@ class Logger extends  EventEmitter {
         // fire event 
         this.emit('message' , {message}) ;
     }
+    
 
 }
 

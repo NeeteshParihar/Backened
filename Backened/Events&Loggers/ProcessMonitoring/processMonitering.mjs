@@ -1,4 +1,4 @@
-import fs from "fs";
+import fs from "fs"; 
 import psList from "ps-list";
 
 const logFilePath = "./process_log.txt";
@@ -11,13 +11,13 @@ const logToFile = (message) => {
 
 const monitorProcesses = async () => {
     const currentProcesses = new Map();
-    const processList = await psList(); // Get running processes
+    const processList = await psList(); // Get running processes 
 
     processList.forEach((proc) => {
         currentProcesses.set(proc.pid, proc.name);
     });
 
-    // Detect newly started applications
+    // Detect newly started applications 
     for (const [pid, name] of currentProcesses) {
         if (!knownProcesses.has(pid)) {
             logToFile(`Application Started: ${name} (PID: ${pid})`);
