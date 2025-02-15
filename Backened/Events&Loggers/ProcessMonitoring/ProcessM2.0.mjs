@@ -7,6 +7,11 @@ let knownProcesses = new Map();
 let flag = 0 ;
 
 
+const lastProcessTriggerd = new Map() ;
+
+const LOG_INTERVAL = 5000; // 5 seconds buffer
+
+
 const SYSTEM_PROCESSES = new Set([
     "ps",
     "bash",
@@ -35,10 +40,21 @@ const SYSTEM_PROCESSES = new Set([
 
 
 
-const logToFile = (app) => {
+const logToFile = (app, pid) => {
+
+    const currTime = Date.now() ;
+
+    console.log(currTime) ;
+
+    if(lastProcessTriggerd.has(pid) && currTime - lastProcessTriggerd.get(pid) < LOG_INTERVAL){
+        return ;
+    }
+
+    lastProcessTriggerd.set(pid , app) ;
+
     const logMessage = {
         time: new Date().toISOString(),
-        application: app
+        application: `${app} - PID : ${pid} `
     };
 
     fs.appendFile(loggingPATH, JSON.stringify(logMessage) + "\n", (err) => {
@@ -69,7 +85,7 @@ const monitorProcesses = async () => {
     // Check for newly started applications
     for (let [pid, name] of currentProcesses) {
         if (!knownProcesses.has(pid)) {
-            logToFile(`Application Started: ${name} (PID: ${pid})`);
+            logToFile(name , pid);
         }
     }
 
@@ -83,5 +99,5 @@ const monitorProcesses = async () => {
     knownProcesses = currentProcesses;
 };
 
-setInterval(monitorProcesses, 3000);
+setInterval(monitorProcesses, 5000);
 console.log(`Process monitoring started. Logging file path: ${loggingPATH}`);

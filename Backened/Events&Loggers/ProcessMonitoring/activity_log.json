@@ -1,23 +1,14 @@
-{"time":"2025-02-15T21:36:47.651Z","application":"Application Started: warp-terminal (PID: 246196)"}
-{"time":"2025-02-15T21:36:47.651Z","application":"Application Started: warp (PID: 246200)"}
-{"time":"2025-02-15T21:36:47.653Z","application":"Application Started: warp (PID: 246206)"}
-{"time":"2025-02-15T21:36:56.354Z","application":"Application Started: chrome (PID: 246499)"}
-{"time":"2025-02-15T21:36:56.354Z","application":"Application Closed: chrome (PID: 246095)"}
-{"time":"2025-02-15T21:36:59.363Z","application":"Application Closed: chrome (PID: 246106)"}
-{"time":"2025-02-15T21:37:11.419Z","application":"Application Closed: 0:0-cgroup_destroy (PID: 244128)"}
-{"time":"2025-02-15T21:37:26.500Z","application":"Application Started: chrome (PID: 246606)"}
-{"time":"2025-02-15T21:37:26.501Z","application":"Application Closed: chrome (PID: 246499)"}
-{"time":"2025-02-15T21:37:56.459Z","application":"Application Started: chrome (PID: 246704)"}
-{"time":"2025-02-15T21:37:56.460Z","application":"Application Closed: u16:2-events_unbound (PID: 245213)"}
-{"time":"2025-02-15T21:37:56.460Z","application":"Application Closed: chrome (PID: 246606)"}
-{"time":"2025-02-15T21:38:02.425Z","application":"Application Closed: u17:4-ttm (PID: 241315)"}
-{"time":"2025-02-15T21:38:02.426Z","application":"Application Closed: u17:10-ttm (PID: 243969)"}
-{"time":"2025-02-15T21:38:02.426Z","application":"Application Closed: u17:11-ttm (PID: 243970)"}
-{"time":"2025-02-15T21:38:02.426Z","application":"Application Closed: u17:2-ttm (PID: 245390)"}
-{"time":"2025-02-15T21:38:02.426Z","application":"Application Closed: u17:8-ttm (PID: 245395)"}
-{"time":"2025-02-15T21:38:02.426Z","application":"Application Closed: u17:9-ttm (PID: 245396)"}
-{"time":"2025-02-15T21:38:02.426Z","application":"Application Closed: u17:12-ttm (PID: 245397)"}
-{"time":"2025-02-15T21:38:02.426Z","application":"Application Closed: u17:14-ttm (PID: 245399)"}
-{"time":"2025-02-15T21:38:02.426Z","application":"Application Closed: u17:16 (PID: 245401)"}
-{"time":"2025-02-15T21:38:26.450Z","application":"Application Started: chrome (PID: 246809)"}
-{"time":"2025-02-15T21:38:26.451Z","application":"Application Closed: chrome (PID: 246704)"}
+{"time":"2025-02-15T22:03:31.107Z","application":"chrome - PID : 252273 "}
+{"time":"2025-02-15T22:03:31.112Z","application":"Application Closed: chrome (PID: 252158) - PID : undefined "}
+{"time":"2025-02-15T22:04:04.888Z","application":"u16:2-gfx - PID : 247385 "}
+{"time":"2025-02-15T22:04:04.892Z","application":"u17:3-ttm - PID : 252399 "}
+{"time":"2025-02-15T22:04:04.893Z","application":"u17:4 - PID : 252400 "}
+{"time":"2025-02-15T22:04:04.893Z","application":"chrome - PID : 252402 "}
+{"time":"2025-02-15T22:04:04.893Z","application":"warp-terminal - PID : 252418 "}
+{"time":"2025-02-15T22:04:04.893Z","application":"warp - PID : 252424 "}
+{"time":"2025-02-15T22:04:04.894Z","application":"warp - PID : 252430 "}
+{"time":"2025-02-15T22:04:04.895Z","application":"Application Closed: chrome (PID: 252273) - PID : undefined "}
+{"time":"2025-02-15T22:04:14.690Z","application":"Application Closed: u16:2-gfx (PID: 247385) - PID : undefined "}
+{"time":"2025-02-15T22:04:19.694Z","application":"u16:2-events_unbound - PID : 247385 "}
+{"time":"2025-02-15T22:05:12.655Z","application":"Application Closed: u16:2-gfx (PID: 247385) - PID : undefined "}
+{"time":"2025-02-15T22:05:17.674Z","application":"u16:2-gfx - PID : 247385 "}
