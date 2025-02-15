@@ -31,7 +31,7 @@ const server = http.createServer((req , res)=>{
     const contentType = mimeTypes[extName] || 'application/octet-stream' ;
 
 
-    // reading and writing 
+    // reading and writing  
 
     fs.readFile(
         filePath  , ( err , content)=>{
@@ -62,7 +62,7 @@ const server = http.createServer((req , res)=>{
 
 server.listen( port  , ()=>{
 
-    console.log("server is listening on port" , port ) ;
+    console.log("server created on port" , port ) ;
 
 })
 

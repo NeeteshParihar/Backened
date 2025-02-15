@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "start": "node Server2.0.js",
+        "dev": "nodemon Server2.0.js"
+    }
+}
