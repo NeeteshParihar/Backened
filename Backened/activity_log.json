@@ -1,0 +1,12 @@
+{"time":"2025-02-15T22:29:34.880Z","application":"app opened : warp - PID : 262951 "}
+{"time":"2025-02-15T22:29:34.874Z","application":"app opened : warp-terminal - PID : 262947 "}
+{"time":"2025-02-15T22:29:34.882Z","application":"app opened : chrome - PID : 263034 "}
+{"time":"2025-02-15T22:29:34.885Z","application":"app Closed : chrome - PID : 262805 "}
+{"time":"2025-02-15T22:29:34.881Z","application":"app opened : warp - PID : 262957 "}
+{"time":"2025-02-15T22:29:54.801Z","application":"app Closed : warp-terminal - PID : 262947 "}
+{"time":"2025-02-15T22:29:54.803Z","application":"app Closed : warp - PID : 262957 "}
+{"time":"2025-02-15T22:29:59.892Z","application":"app Closed : warp - PID : 262951 "}
+{"time":"2025-02-15T22:30:05.001Z","application":"app opened : chrome - PID : 263383 "}
+{"time":"2025-02-15T22:30:05.004Z","application":"app Closed : chrome - PID : 263034 "}
+{"time":"2025-02-15T22:30:34.880Z","application":"app opened : chrome - PID : 263492 "}
+{"time":"2025-02-15T22:30:34.881Z","application":"app Closed : chrome - PID : 263383 "}

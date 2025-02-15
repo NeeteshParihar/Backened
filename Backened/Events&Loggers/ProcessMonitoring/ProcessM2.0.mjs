@@ -1,15 +1,19 @@
 import fs from 'fs';
 import psList from 'ps-list';
+import os from 'os'
 
-const loggingPATH = './activity_log.json';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+
+
+
+const loggingPATH =  `${__dirname}/activity_log.json` ;
 let knownProcesses = new Map();
 
-let flag = 0 ;
-
-
-const lastProcessTriggerd = new Map() ;
-
-const LOG_INTERVAL = 5000; // 5 seconds buffer
 
 
 const SYSTEM_PROCESSES = new Set([
@@ -38,13 +42,34 @@ const SYSTEM_PROCESSES = new Set([
 
 ]);
 
+let flag = 0 ;
+
+
+const lastProcessTriggerd = new Map() ;
+
+const LOG_INTERVAL = 5000; // 5 seconds buffer
+
+const isUserProcess = (process)=>{
+
+    const { ppid, uid, name } = process;
+
+    if(SYSTEM_PROCESSES.has(name))
+            return false ;
+    if(ppid === 1  || uid === 0)
+            return false ;
+        
+    return true ; 
+
+
+}
+
+
 
 
 const logToFile = (app, pid) => {
 
     const currTime = Date.now() ;
 
-    console.log(currTime) ;
 
     if(lastProcessTriggerd.has(pid) && currTime - lastProcessTriggerd.get(pid) < LOG_INTERVAL){
         return ;
@@ -68,12 +93,13 @@ const monitorProcesses = async () => {
 
     // console.log("Fetching current processes...");
 
-    for (let { pid, name , ppid } of processList) {
-        if (!SYSTEM_PROCESSES.has(name) && ppid !== 1) {
-            currentProcesses.set(pid, name);
+    for (let process of processList) {
+        if (isUserProcess(process)) {
+            currentProcesses.set(process.pid, process.name);
         }
     }
 
+    
     if(flag === 0){
     knownProcesses = currentProcesses;
     flag ++ ;
@@ -85,14 +111,14 @@ const monitorProcesses = async () => {
     // Check for newly started applications
     for (let [pid, name] of currentProcesses) {
         if (!knownProcesses.has(pid)) {
-            logToFile(name , pid);
+            logToFile(`${name} : Opened` , pid);
         }
     }
 
     // Check for closed applications
     for (let [pid, name] of knownProcesses) {
         if (!currentProcesses.has(pid)) {
-            logToFile(`Application Closed: ${name} (PID: ${pid})`);
+            logToFile(`${name} : closed ` , pid);
         }
     }
 
