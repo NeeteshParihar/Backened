@@ -1,7 +1,7 @@
 {
     "time": "2025-02-15T22:42:35.948Z",
     "application": "chrome : Opened - PID : 265489 "
-}
+} 
 {
     "time": "2025-02-15T22:42:35.953Z",
     "application": "warp-terminal : Opened - PID : 265499 "
@@ -424,3 +424,38 @@
 {"time":"2025-02-16T12:31:30.372Z","application":"chrome : closed  - PID : 33407 "}
 {"time":"2025-02-16T12:31:30.372Z","application":"chrome : closed  - PID : 33430 "}
 {"time":"2025-02-16T12:31:30.372Z","application":"chrome : closed  - PID : 33435 "}
+{"time":"2025-02-16T12:33:20.602Z","application":"evince : Opened - PID : 35559 "}
+{"time":"2025-02-16T12:33:25.576Z","application":"evinced : Opened - PID : 35578 "}
+{"time":"2025-02-16T12:33:30.524Z","application":"evince : closed  - PID : 35559 "}
+{"time":"2025-02-16T12:33:30.524Z","application":"evinced : closed  - PID : 35578 "}
+{"time":"2025-02-16T12:33:46.174Z","application":"chrome : Opened - PID : 35977 "}
+{"time":"2025-02-16T12:33:46.174Z","application":"cat : Opened - PID : 35984 "}
+{"time":"2025-02-16T12:33:46.175Z","application":"cat : Opened - PID : 35985 "}
+{"time":"2025-02-16T12:33:46.176Z","application":"chrome : Opened - PID : 35995 "}
+{"time":"2025-02-16T12:33:46.177Z","application":"chrome : Opened - PID : 35996 "}
+{"time":"2025-02-16T12:33:46.181Z","application":"chrome : Opened - PID : 35998 "}
+{"time":"2025-02-16T12:33:46.181Z","application":"chrome : Opened - PID : 36024 "}
+{"time":"2025-02-16T12:33:46.181Z","application":"chrome : Opened - PID : 36026 "}
+{"time":"2025-02-16T12:33:46.181Z","application":"chrome : Opened - PID : 36045 "}
+{"time":"2025-02-16T12:33:46.181Z","application":"chrome : Opened - PID : 36068 "}
+{"time":"2025-02-16T12:33:46.181Z","application":"chrome : Opened - PID : 36075 "}
+{"time":"2025-02-16T12:33:46.182Z","application":"chrome : Opened - PID : 36102 "}
+{"time":"2025-02-16T12:33:46.184Z","application":"chrome : Opened - PID : 36121 "}
+{"time":"2025-02-16T12:33:46.184Z","application":"chrome : Opened - PID : 36134 "}
+{"time":"2025-02-16T12:33:46.183Z","application":"chrome : Opened - PID : 36103 "}
+{"time":"2025-02-16T12:34:00.892Z","application":"chrome : closed  - PID : 36026 "}
+{"time":"2025-02-16T12:34:00.893Z","application":"chrome : closed  - PID : 36045 "}
+{"time":"2025-02-16T12:34:00.893Z","application":"chrome : closed  - PID : 36102 "}
+{"time":"2025-02-16T12:34:00.893Z","application":"chrome : closed  - PID : 36134 "}
+{"time":"2025-02-16T12:34:05.546Z","application":"chrome : closed  - PID : 35977 "}
+{"time":"2025-02-16T12:34:05.550Z","application":"cat : closed  - PID : 35984 "}
+{"time":"2025-02-16T12:34:05.552Z","application":"chrome : closed  - PID : 35998 "}
+{"time":"2025-02-16T12:34:05.552Z","application":"chrome : closed  - PID : 35996 "}
+{"time":"2025-02-16T12:34:05.555Z","application":"chrome : closed  - PID : 36024 "}
+{"time":"2025-02-16T12:34:05.555Z","application":"chrome : closed  - PID : 36068 "}
+{"time":"2025-02-16T12:34:05.555Z","application":"chrome : closed  - PID : 36075 "}
+{"time":"2025-02-16T12:34:05.556Z","application":"chrome : closed  - PID : 36103 "}
+{"time":"2025-02-16T12:34:05.556Z","application":"chrome : closed  - PID : 36121 "}
+{"time":"2025-02-16T12:34:05.551Z","application":"cat : closed  - PID : 35985 "}
+{"time":"2025-02-16T12:34:05.551Z","application":"chrome : closed  - PID : 35995 "}
+{"time":"2025-02-16T12:34:20.706Z","application":"Telegram : Opened - PID : 36638 "}
