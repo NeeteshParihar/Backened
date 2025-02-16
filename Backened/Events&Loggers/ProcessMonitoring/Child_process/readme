@@ -1,0 +1,14 @@
+// in nodejs we have a child_process module and it gives us exec method to run CLI or terminal commands from the nodejs script 
+
+
+// experiment 
+// monitor the system application and fetch in the file 
+// after every 30seconds push the repo on the public github repo
+// write another script which clones the repo every 20 seconds this way we can monitor the system activity
+// make another folder and do in that 
+
+
+
+
+
+
