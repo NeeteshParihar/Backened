@@ -1,6 +1,6 @@
 
 const fs = require('fs') ;
-const os = require('os') ;
+const os = require('os') ;  
 
 const EventEmitter = require("events") ;
 
@@ -9,8 +9,7 @@ class Logger extends  EventEmitter {
     log(message){
         // fire event 
         this.emit('message' , {message}) ;
-    }
-    
+    }   
 
 }
 
@@ -22,7 +21,9 @@ const logToFile = (event)=>{
 
     const message = `\n${new Date().toISOString()} - ${event.message}` ;
 
-    fs.appendFile(filePATH , message , (err)=>{
+    fs.appendFile(filePATH
+        
+         , message , (err)=>{
         if(err)
             console.log("write error in the file") ;
     })
@@ -30,7 +31,7 @@ const logToFile = (event)=>{
 }
 
 // add event listener
-logger.on('message' , logToFile) ;
+logger.on('message' , logToFile ) ; 
 
 const IntervalID = setInterval(()=>{
 

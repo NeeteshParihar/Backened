@@ -1,9 +1,9 @@
 
 const { exec } = require('child_process');
 
-const http = require("http");
-const fs = require("fs");
-const path = require("path");
+const http = require("http");  
+const fs = require("fs"); 
+const path = require("path"); 
 
 
 function getExtension(filePath){
@@ -15,7 +15,7 @@ const PORT = 3007;
 const server = http.createServer(
 
     (req, res) => {
-
+        // __dirname is only available in common js module 
     const filePath = path.join(__dirname , req.url === "/" ? "index.html" : `${req.url}` ) ;
 
 

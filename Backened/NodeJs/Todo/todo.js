@@ -1,5 +1,5 @@
 
-// import the file system module 
+// import the file system module  
 
 const fs = require("fs");
 
@@ -21,7 +21,7 @@ const loadTasks = () => {
 
         const dataJSON = dataBuffer.toString();
 
-        return JSON.parse(dataJSON);
+        return JSON.parse(dataJSON); 
 
 
     } catch (error) {
@@ -63,13 +63,8 @@ const listTasks = () => {
 }
 
 
-
-
 const command = process.argv[2];
 const argument = process.argv[3];
-
-
-
 
 
 if (command === "add") {

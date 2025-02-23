@@ -236,226 +236,95 @@
 {
     "time": "2025-02-16T12:12:03.982Z",
     "application": "chrome : closed  - PID : 15119 "
-}{"time":"2025-02-16T12:13:29.226Z","application":"code : Opened - PID : 17121 "}
-{"time":"2025-02-16T12:13:29.226Z","application":"code : Opened - PID : 17122 "}
-{"time":"2025-02-16T12:13:29.229Z","application":"code : Opened - PID : 17145 "}
-{"time":"2025-02-16T12:13:34.077Z","application":"npm install typ : Opened - PID : 17163 "}
-{"time":"2025-02-16T12:13:44.169Z","application":"git : Opened - PID : 17215 "}
-{"time":"2025-02-16T12:13:49.098Z","application":"git : closed  - PID : 17215 "}
-{"time":"2025-02-16T12:15:19.646Z","application":"tracker-extract : Opened - PID : 18728 "}
-{"time":"2025-02-16T12:15:29.771Z","application":"tracker-extract : closed  - PID : 18728 "}
-{"time":"2025-02-16T12:15:54.698Z","application":"npm install typ : closed  - PID : 17163 "}
-{"time":"2025-02-16T12:19:04.884Z","application":"git : Opened - PID : 21910 "}
-{"time":"2025-02-16T12:19:09.942Z","application":"git : closed  - PID : 21910 "}
-{"time":"2025-02-16T12:23:09.941Z","application":"code : Opened - PID : 25242 "}
-{"time":"2025-02-16T12:23:14.997Z","application":"node : Opened - PID : 25487 "}
-{"time":"2025-02-16T12:23:14.998Z","application":"chrome : Opened - PID : 25515 "}
-{"time":"2025-02-16T12:23:14.998Z","application":"cat : Opened - PID : 25522 "}
-{"time":"2025-02-16T12:23:14.998Z","application":"cat : Opened - PID : 25523 "}
-{"time":"2025-02-16T12:23:14.998Z","application":"chrome : Opened - PID : 25534 "}
-{"time":"2025-02-16T12:23:14.998Z","application":"chrome : Opened - PID : 25536 "}
-{"time":"2025-02-16T12:23:20.285Z","application":"chrome : Opened - PID : 25544 "}
-{"time":"2025-02-16T12:23:20.286Z","application":"chrome : Opened - PID : 25584 "}
-{"time":"2025-02-16T12:23:20.286Z","application":"chrome : Opened - PID : 25589 "}
-{"time":"2025-02-16T12:23:20.286Z","application":"chrome : Opened - PID : 25636 "}
-{"time":"2025-02-16T12:23:20.286Z","application":"chrome : Opened - PID : 25638 "}
-{"time":"2025-02-16T12:23:20.289Z","application":"chrome : Opened - PID : 25655 "}
-{"time":"2025-02-16T12:23:20.289Z","application":"chrome : Opened - PID : 25656 "}
-{"time":"2025-02-16T12:23:20.286Z","application":"chrome : Opened - PID : 25582 "}
-{"time":"2025-02-16T12:23:24.962Z","application":"chrome : Opened - PID : 25688 "}
-{"time":"2025-02-16T12:23:24.962Z","application":"chrome : Opened - PID : 25707 "}
-{"time":"2025-02-16T12:23:24.962Z","application":"chrome : Opened - PID : 25689 "}
-{"time":"2025-02-16T12:23:24.962Z","application":"chrome : Opened - PID : 25777 "}
-{"time":"2025-02-16T12:23:24.963Z","application":"chrome : closed  - PID : 25636 "}
-{"time":"2025-02-16T12:23:24.963Z","application":"chrome : closed  - PID : 25638 "}
-{"time":"2025-02-16T12:23:45.178Z","application":"chrome : Opened - PID : 25836 "}
-{"time":"2025-02-16T12:23:50.228Z","application":"chrome : closed  - PID : 25688 "}
-{"time":"2025-02-16T12:23:50.229Z","application":"chrome : closed  - PID : 25689 "}
-{"time":"2025-02-16T12:24:10.228Z","application":"node : closed  - PID : 25487 "}
-{"time":"2025-02-16T12:24:14.956Z","application":"code : closed  - PID : 11169 "}
-{"time":"2025-02-16T12:24:14.956Z","application":"code : closed  - PID : 11172 "}
-{"time":"2025-02-16T12:24:14.956Z","application":"code : closed  - PID : 11175 "}
-{"time":"2025-02-16T12:24:14.957Z","application":"code : closed  - PID : 11276 "}
-{"time":"2025-02-16T12:24:14.957Z","application":"code : closed  - PID : 11290 "}
-{"time":"2025-02-16T12:24:14.957Z","application":"code : closed  - PID : 11331 "}
-{"time":"2025-02-16T12:24:14.957Z","application":"code : closed  - PID : 11347 "}
-{"time":"2025-02-16T12:24:14.957Z","application":"code : closed  - PID : 11348 "}
-{"time":"2025-02-16T12:24:14.957Z","application":"code : closed  - PID : 11379 "}
-{"time":"2025-02-16T12:24:14.958Z","application":"code : closed  - PID : 12170 "}
-{"time":"2025-02-16T12:24:14.958Z","application":"code : closed  - PID : 12192 "}
-{"time":"2025-02-16T12:24:14.958Z","application":"code : closed  - PID : 17121 "}
-{"time":"2025-02-16T12:24:14.958Z","application":"code : closed  - PID : 17122 "}
-{"time":"2025-02-16T12:24:14.958Z","application":"code : closed  - PID : 17145 "}
-{"time":"2025-02-16T12:24:14.959Z","application":"code : closed  - PID : 25242 "}
-{"time":"2025-02-16T12:24:14.956Z","application":"code : closed  - PID : 11173 "}
-{"time":"2025-02-16T12:24:24.967Z","application":"chrome : closed  - PID : 25656 "}
-{"time":"2025-02-16T12:24:29.967Z","application":"chrome : Opened - PID : 26061 "}
-{"time":"2025-02-16T12:24:29.968Z","application":"chrome : closed  - PID : 25655 "}
-{"time":"2025-02-16T12:24:29.968Z","application":"chrome : closed  - PID : 25707 "}
-{"time":"2025-02-16T12:24:40.097Z","application":"node : Opened - PID : 26644 "}
-{"time":"2025-02-16T12:24:44.960Z","application":"chrome : Opened - PID : 26663 "}
-{"time":"2025-02-16T12:24:44.961Z","application":"chrome : Opened - PID : 26669 "}
-{"time":"2025-02-16T12:24:50.036Z","application":"cheese : Opened - PID : 26694 "}
-{"time":"2025-02-16T12:25:00.232Z","application":"cheese : closed  - PID : 26694 "}
-{"time":"2025-02-16T12:25:20.373Z","application":"cheese : Opened - PID : 27362 "}
-{"time":"2025-02-16T12:26:00.081Z","application":"chrome : closed  - PID : 26663 "}
-{"time":"2025-02-16T12:26:05.065Z","application":"chrome : Opened - PID : 28019 "}
-{"time":"2025-02-16T12:26:05.065Z","application":"chrome : closed  - PID : 26061 "}
-{"time":"2025-02-16T12:26:05.066Z","application":"chrome : closed  - PID : 26669 "}
-{"time":"2025-02-16T12:26:20.197Z","application":"chrome : Opened - PID : 28325 "}
-{"time":"2025-02-16T12:26:20.197Z","application":"chrome : Opened - PID : 28331 "}
-{"time":"2025-02-16T12:26:20.197Z","application":"cheese : closed  - PID : 27362 "}
-{"time":"2025-02-16T12:27:05.144Z","application":"chrome : closed  - PID : 25836 "}
-{"time":"2025-02-16T12:27:05.143Z","application":"chrome : Opened - PID : 28990 "}
-{"time":"2025-02-16T12:27:05.144Z","application":"chrome : Opened - PID : 29000 "}
-{"time":"2025-02-16T12:27:10.100Z","application":"chrome : Opened - PID : 29017 "}
-{"time":"2025-02-16T12:27:10.100Z","application":"chrome : closed  - PID : 28019 "}
-{"time":"2025-02-16T12:27:10.100Z","application":"chrome : closed  - PID : 28325 "}
-{"time":"2025-02-16T12:27:10.100Z","application":"chrome : closed  - PID : 28331 "}
-{"time":"2025-02-16T12:27:15.181Z","application":"chrome : Opened - PID : 29036 "}
-{"time":"2025-02-16T12:27:15.182Z","application":"chrome : Opened - PID : 29042 "}
-{"time":"2025-02-16T12:27:30.157Z","application":"chrome : closed  - PID : 25515 "}
-{"time":"2025-02-16T12:27:30.158Z","application":"cat : closed  - PID : 25522 "}
-{"time":"2025-02-16T12:27:30.158Z","application":"cat : closed  - PID : 25523 "}
-{"time":"2025-02-16T12:27:30.158Z","application":"chrome : closed  - PID : 25534 "}
-{"time":"2025-02-16T12:27:30.158Z","application":"chrome : closed  - PID : 25536 "}
-{"time":"2025-02-16T12:27:30.158Z","application":"chrome : closed  - PID : 25544 "}
-{"time":"2025-02-16T12:27:30.158Z","application":"chrome : closed  - PID : 25582 "}
-{"time":"2025-02-16T12:27:30.158Z","application":"chrome : closed  - PID : 25584 "}
-{"time":"2025-02-16T12:27:30.158Z","application":"chrome : closed  - PID : 25589 "}
-{"time":"2025-02-16T12:27:30.159Z","application":"chrome : closed  - PID : 25777 "}
-{"time":"2025-02-16T12:27:30.159Z","application":"chrome : closed  - PID : 28990 "}
-{"time":"2025-02-16T12:27:30.159Z","application":"chrome : closed  - PID : 29000 "}
-{"time":"2025-02-16T12:27:30.159Z","application":"chrome : closed  - PID : 29017 "}
-{"time":"2025-02-16T12:27:30.159Z","application":"chrome : closed  - PID : 29036 "}
-{"time":"2025-02-16T12:27:30.159Z","application":"chrome : closed  - PID : 29042 "}
-{"time":"2025-02-16T12:27:35.111Z","application":"node : closed  - PID : 26644 "}
-{"time":"2025-02-16T12:27:55.169Z","application":"code : Opened - PID : 30005 "}
-{"time":"2025-02-16T12:27:55.170Z","application":"code : Opened - PID : 30008 "}
-{"time":"2025-02-16T12:27:55.170Z","application":"code : Opened - PID : 30009 "}
-{"time":"2025-02-16T12:27:55.170Z","application":"code : Opened - PID : 30011 "}
-{"time":"2025-02-16T12:28:00.342Z","application":"code : Opened - PID : 30054 "}
-{"time":"2025-02-16T12:28:00.342Z","application":"code : Opened - PID : 30059 "}
-{"time":"2025-02-16T12:28:00.343Z","application":"code : Opened - PID : 30101 "}
-{"time":"2025-02-16T12:28:05.702Z","application":"code : Opened - PID : 30741 "}
-{"time":"2025-02-16T12:28:05.708Z","application":"code : Opened - PID : 30742 "}
-{"time":"2025-02-16T12:28:05.708Z","application":"code : Opened - PID : 30743 "}
-{"time":"2025-02-16T12:28:05.708Z","application":"code : Opened - PID : 30748 "}
-{"time":"2025-02-16T12:28:20.339Z","application":"cpuUsage.sh : Opened - PID : 30883 "}
-{"time":"2025-02-16T12:28:25.818Z","application":"code : Opened - PID : 31242 "}
-{"time":"2025-02-16T12:28:25.819Z","application":"code : Opened - PID : 31243 "}
-{"time":"2025-02-16T12:28:25.819Z","application":"cpuUsage.sh : Opened - PID : 31267 "}
-{"time":"2025-02-16T12:28:25.820Z","application":"cpuUsage.sh : closed  - PID : 30883 "}
-{"time":"2025-02-16T12:28:31.308Z","application":"code : Opened - PID : 31281 "}
-{"time":"2025-02-16T12:28:31.308Z","application":"code : Opened - PID : 31294 "}
-{"time":"2025-02-16T12:28:31.313Z","application":"cpuUsage.sh : closed  - PID : 31267 "}
-{"time":"2025-02-16T12:29:00.851Z","application":"npm install typ : Opened - PID : 31627 "}
-{"time":"2025-02-16T12:29:00.852Z","application":"git : Opened - PID : 31638 "}
-{"time":"2025-02-16T12:29:05.627Z","application":"git : Opened - PID : 31649 "}
-{"time":"2025-02-16T12:29:05.628Z","application":"git : Opened - PID : 31650 "}
-{"time":"2025-02-16T12:29:10.343Z","application":"code : Opened - PID : 31912 "}
-{"time":"2025-02-16T12:29:10.344Z","application":"git : closed  - PID : 31638 "}
-{"time":"2025-02-16T12:29:10.344Z","application":"git : closed  - PID : 31649 "}
-{"time":"2025-02-16T12:29:10.344Z","application":"git : closed  - PID : 31650 "}
-{"time":"2025-02-16T12:29:15.739Z","application":"code : Opened - PID : 31984 "}
-{"time":"2025-02-16T12:29:20.332Z","application":"code : Opened - PID : 32018 "}
-{"time":"2025-02-16T12:29:20.332Z","application":"code : closed  - PID : 31984 "}
-{"time":"2025-02-16T12:29:25.577Z","application":"chrome : Opened - PID : 32073 "}
-{"time":"2025-02-16T12:29:25.578Z","application":"cat : Opened - PID : 32078 "}
-{"time":"2025-02-16T12:29:25.577Z","application":"gvfsd-http : Opened - PID : 32066 "}
-{"time":"2025-02-16T12:29:25.578Z","application":"cat : Opened - PID : 32079 "}
-{"time":"2025-02-16T12:29:25.578Z","application":"chrome : Opened - PID : 32089 "}
-{"time":"2025-02-16T12:29:25.579Z","application":"chrome : Opened - PID : 32090 "}
-{"time":"2025-02-16T12:29:25.579Z","application":"chrome : Opened - PID : 32092 "}
-{"time":"2025-02-16T12:29:25.579Z","application":"chrome : Opened - PID : 32357 "}
-{"time":"2025-02-16T12:29:25.579Z","application":"exe : Opened - PID : 32361 "}
-{"time":"2025-02-16T12:29:30.492Z","application":"chrome : Opened - PID : 32386 "}
-{"time":"2025-02-16T12:29:30.492Z","application":"chrome : Opened - PID : 32415 "}
-{"time":"2025-02-16T12:29:30.492Z","application":"chrome : Opened - PID : 32416 "}
-{"time":"2025-02-16T12:29:30.493Z","application":"chrome : Opened - PID : 32453 "}
-{"time":"2025-02-16T12:29:30.493Z","application":"chrome : Opened - PID : 32449 "}
-{"time":"2025-02-16T12:29:30.494Z","application":"chrome : Opened - PID : 32460 "}
-{"time":"2025-02-16T12:29:55.387Z","application":"chrome : Opened - PID : 32608 "}
-{"time":"2025-02-16T12:30:00.358Z","application":"yelp : Opened - PID : 32633 "}
-{"time":"2025-02-16T12:30:05.352Z","application":"WebKitNetworkPr : Opened - PID : 32683 "}
-{"time":"2025-02-16T12:30:05.352Z","application":"WebKitWebProces : Opened - PID : 32684 "}
-{"time":"2025-02-16T12:30:25.404Z","application":"chrome : closed  - PID : 32608 "}
-{"time":"2025-02-16T12:30:25.404Z","application":"WebKitWebProces : closed  - PID : 32684 "}
-{"time":"2025-02-16T12:30:30.335Z","application":"yelp : closed  - PID : 32633 "}
-{"time":"2025-02-16T12:30:30.335Z","application":"WebKitNetworkPr : closed  - PID : 32683 "}
-{"time":"2025-02-16T12:30:50.445Z","application":"chrome : closed  - PID : 32073 "}
-{"time":"2025-02-16T12:30:50.446Z","application":"cat : closed  - PID : 32078 "}
-{"time":"2025-02-16T12:30:50.446Z","application":"cat : closed  - PID : 32079 "}
-{"time":"2025-02-16T12:30:50.446Z","application":"chrome : closed  - PID : 32090 "}
-{"time":"2025-02-16T12:30:50.446Z","application":"chrome : closed  - PID : 32089 "}
-{"time":"2025-02-16T12:30:50.446Z","application":"chrome : closed  - PID : 32092 "}
-{"time":"2025-02-16T12:30:50.446Z","application":"chrome : closed  - PID : 32357 "}
-{"time":"2025-02-16T12:30:50.446Z","application":"chrome : closed  - PID : 32361 "}
-{"time":"2025-02-16T12:30:50.446Z","application":"chrome : closed  - PID : 32386 "}
-{"time":"2025-02-16T12:30:50.447Z","application":"chrome : closed  - PID : 32415 "}
-{"time":"2025-02-16T12:30:50.447Z","application":"chrome : closed  - PID : 32416 "}
-{"time":"2025-02-16T12:30:50.447Z","application":"chrome : closed  - PID : 32449 "}
-{"time":"2025-02-16T12:30:50.447Z","application":"chrome : closed  - PID : 32453 "}
-{"time":"2025-02-16T12:30:50.447Z","application":"chrome : closed  - PID : 32460 "}
-{"time":"2025-02-16T12:30:55.671Z","application":"git : Opened - PID : 32958 "}
-{"time":"2025-02-16T12:30:55.671Z","application":"git : Opened - PID : 32961 "}
-{"time":"2025-02-16T12:31:00.637Z","application":"git : closed  - PID : 32958 "}
-{"time":"2025-02-16T12:31:00.637Z","application":"git : closed  - PID : 32961 "}
-{"time":"2025-02-16T12:31:20.536Z","application":"chrome : Opened - PID : 33351 "}
-{"time":"2025-02-16T12:31:20.536Z","application":"cat : Opened - PID : 33359 "}
-{"time":"2025-02-16T12:31:20.536Z","application":"chrome : Opened - PID : 33369 "}
-{"time":"2025-02-16T12:31:20.536Z","application":"chrome : Opened - PID : 33370 "}
-{"time":"2025-02-16T12:31:20.538Z","application":"chrome : Opened - PID : 33372 "}
-{"time":"2025-02-16T12:31:20.538Z","application":"chrome : Opened - PID : 33400 "}
-{"time":"2025-02-16T12:31:20.538Z","application":"chrome : Opened - PID : 33402 "}
-{"time":"2025-02-16T12:31:20.539Z","application":"chrome : Opened - PID : 33430 "}
-{"time":"2025-02-16T12:31:20.539Z","application":"chrome : Opened - PID : 33407 "}
-{"time":"2025-02-16T12:31:20.539Z","application":"chrome : Opened - PID : 33435 "}
-{"time":"2025-02-16T12:31:20.536Z","application":"cat : Opened - PID : 33358 "}
-{"time":"2025-02-16T12:31:30.371Z","application":"npm install typ : closed  - PID : 31627 "}
-{"time":"2025-02-16T12:31:30.371Z","application":"chrome : closed  - PID : 33351 "}
-{"time":"2025-02-16T12:31:30.371Z","application":"cat : closed  - PID : 33358 "}
-{"time":"2025-02-16T12:31:30.372Z","application":"cat : closed  - PID : 33359 "}
-{"time":"2025-02-16T12:31:30.372Z","application":"chrome : closed  - PID : 33369 "}
-{"time":"2025-02-16T12:31:30.372Z","application":"chrome : closed  - PID : 33370 "}
-{"time":"2025-02-16T12:31:30.372Z","application":"chrome : closed  - PID : 33372 "}
-{"time":"2025-02-16T12:31:30.372Z","application":"chrome : closed  - PID : 33400 "}
-{"time":"2025-02-16T12:31:30.372Z","application":"chrome : closed  - PID : 33402 "}
-{"time":"2025-02-16T12:31:30.372Z","application":"chrome : closed  - PID : 33407 "}
-{"time":"2025-02-16T12:31:30.372Z","application":"chrome : closed  - PID : 33430 "}
-{"time":"2025-02-16T12:31:30.372Z","application":"chrome : closed  - PID : 33435 "}
-{"time":"2025-02-16T12:33:20.602Z","application":"evince : Opened - PID : 35559 "}
-{"time":"2025-02-16T12:33:25.576Z","application":"evinced : Opened - PID : 35578 "}
-{"time":"2025-02-16T12:33:30.524Z","application":"evince : closed  - PID : 35559 "}
-{"time":"2025-02-16T12:33:30.524Z","application":"evinced : closed  - PID : 35578 "}
-{"time":"2025-02-16T12:33:46.174Z","application":"chrome : Opened - PID : 35977 "}
-{"time":"2025-02-16T12:33:46.174Z","application":"cat : Opened - PID : 35984 "}
-{"time":"2025-02-16T12:33:46.175Z","application":"cat : Opened - PID : 35985 "}
-{"time":"2025-02-16T12:33:46.176Z","application":"chrome : Opened - PID : 35995 "}
-{"time":"2025-02-16T12:33:46.177Z","application":"chrome : Opened - PID : 35996 "}
-{"time":"2025-02-16T12:33:46.181Z","application":"chrome : Opened - PID : 35998 "}
-{"time":"2025-02-16T12:33:46.181Z","application":"chrome : Opened - PID : 36024 "}
-{"time":"2025-02-16T12:33:46.181Z","application":"chrome : Opened - PID : 36026 "}
-{"time":"2025-02-16T12:33:46.181Z","application":"chrome : Opened - PID : 36045 "}
-{"time":"2025-02-16T12:33:46.181Z","application":"chrome : Opened - PID : 36068 "}
-{"time":"2025-02-16T12:33:46.181Z","application":"chrome : Opened - PID : 36075 "}
-{"time":"2025-02-16T12:33:46.182Z","application":"chrome : Opened - PID : 36102 "}
-{"time":"2025-02-16T12:33:46.184Z","application":"chrome : Opened - PID : 36121 "}
-{"time":"2025-02-16T12:33:46.184Z","application":"chrome : Opened - PID : 36134 "}
-{"time":"2025-02-16T12:33:46.183Z","application":"chrome : Opened - PID : 36103 "}
-{"time":"2025-02-16T12:34:00.892Z","application":"chrome : closed  - PID : 36026 "}
-{"time":"2025-02-16T12:34:00.893Z","application":"chrome : closed  - PID : 36045 "}
-{"time":"2025-02-16T12:34:00.893Z","application":"chrome : closed  - PID : 36102 "}
-{"time":"2025-02-16T12:34:00.893Z","application":"chrome : closed  - PID : 36134 "}
-{"time":"2025-02-16T12:34:05.546Z","application":"chrome : closed  - PID : 35977 "}
-{"time":"2025-02-16T12:34:05.550Z","application":"cat : closed  - PID : 35984 "}
-{"time":"2025-02-16T12:34:05.552Z","application":"chrome : closed  - PID : 35998 "}
-{"time":"2025-02-16T12:34:05.552Z","application":"chrome : closed  - PID : 35996 "}
-{"time":"2025-02-16T12:34:05.555Z","application":"chrome : closed  - PID : 36024 "}
-{"time":"2025-02-16T12:34:05.555Z","application":"chrome : closed  - PID : 36068 "}
-{"time":"2025-02-16T12:34:05.555Z","application":"chrome : closed  - PID : 36075 "}
-{"time":"2025-02-16T12:34:05.556Z","application":"chrome : closed  - PID : 36103 "}
-{"time":"2025-02-16T12:34:05.556Z","application":"chrome : closed  - PID : 36121 "}
-{"time":"2025-02-16T12:34:05.551Z","application":"cat : closed  - PID : 35985 "}
-{"time":"2025-02-16T12:34:05.551Z","application":"chrome : closed  - PID : 35995 "}
-{"time":"2025-02-16T12:34:20.706Z","application":"Telegram : Opened - PID : 36638 "}
+}{
+    "time": "2025-02-16T12:13:29.226Z",
+    "application": "code : Opened - PID : 17121 "
+}
+{
+    "time": "2025-02-16T12:13:29.226Z",
+    "application": "code : Opened - PID : 17122 "
+}
+{
+    "time": "2025-02-16T12:13:29.229Z",
+    "application": "code : Opened - PID : 17145 "
+}
+{
+    "time": "2025-02-16T12:13:34.077Z",
+    "application": "npm install typ : Opened - PID : 17163 "
+}
+{
+    "time": "2025-02-16T12:13:44.169Z",
+    "application": "git : Opened - PID : 17215 "
+}
+{
+    "time": "2025-02-16T12:13:49.098Z",
+    "application": "git : closed  - PID : 17215 "
+}
+{
+    "time": "2025-02-16T12:15:19.646Z",
+    "application": "tracker-extract : Opened - PID : 18728 "
+}
+{
+    "time": "2025-02-16T12:15:29.771Z",
+    "application": "tracker-extract : closed  - PID : 18728 "
+}
+{
+    "time": "2025-02-16T12:15:54.698Z",
+    "application": "npm install typ : closed  - PID : 17163 "
+}
+{
+    "time": "2025-02-16T12:19:04.884Z",
+    "application": "git : Opened - PID : 21910 "
+}
+{
+    "time": "2025-02-16T12:19:09.942Z",
+    "application": "git : closed  - PID : 21910 "
+}
+{
+    "time": "2025-02-16T12:23:09.941Z",
+    "application": "code : Opened - PID : 25242 "
+}
+{
+    "time": "2025-02-16T12:23:14.997Z",
+    "application": "node : Opened - PID : 25487 "
+}
+{
+    "time": "2025-02-16T12:23:14.998Z",
+    "application": "chrome : Opened - PID : 25515 "
+}
+{
+    "time": "2025-02-16T12:23:14.998Z",
+    "application": "cat : Opened - PID : 25522 "
+}
+{
+    "time": "2025-02-16T12:23:14.998Z",
+    "application": "cat : Opened - PID : 25523 "
+}
+{
+    "time": "2025-02-16T12:23:14.998Z",
+    "application": "chrome : Opened - PID : 25534 "
+}
+{
+    "time": "2025-02-16T12:23:14.998Z",
+    "application": "chrome : Opened - PID : 25536 "
+}
+{
+    "time": "2025-02-16T12:23:20.285Z",
+    "application": "chrome : Opened - PID : 25544 "
+}
+{
+    "time": "2025-02-16T12:23:20.286Z",
+    "application": "chrome : Opened - PID : 25584 "
+}
+{
+    "time": "2025-02-16T12:23:20.286Z",
+    "application": "chrome : Opened - PID : 25589 "
+}
+{
+    "time": "2025-02-16T12:23:20.286Z",
+    "application": "chrome : Opened - PID : 25636 "
+}
+{
+    "time": "2025-02-16T12:23:20.286Z",
+    "application": "chrome : Opened - PID : 25638 "
+}
