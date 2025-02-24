@@ -2,10 +2,13 @@ import express from "express" ;
 
 const app = express() ;
 const PORT = 5005 ;
+
+
+
 // accepting the json format
 app.use(express.json()) ;
 
-let teaData = [] 
+let teaData = []  
 
 let nextID = 1 ;
 
@@ -49,9 +52,7 @@ app.get( '/teas/:id' , (req , res)=>{
 
 // update the tea
 
-app.put('/teas/:id' , (req , res)=>{
-
-    
+app.put('/teas/:id' , (req , res)=>{    
 
     const teaId = parseInt(req.params.id) ;
     const {name , price}= req.body ;
